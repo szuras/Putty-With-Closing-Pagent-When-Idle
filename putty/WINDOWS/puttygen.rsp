@@ -1,0 +1,12 @@
+/nologo /subsystem:windows 
+advapi32.lib comctl32.lib comdlg32.lib conf.obj 
+gdi32.lib imm32.lib import.obj misc.obj 
+notiming.obj ole32.lib puttygen.res shell32.lib 
+sshaes.obj sshbn.obj sshdes.obj sshdss.obj 
+sshdssg.obj sshmd5.obj sshprime.obj sshpubk.obj 
+sshrand.obj sshrsa.obj sshrsag.obj sshsh256.obj 
+sshsh512.obj sshsha.obj tree234.obj user32.lib 
+version.obj winctrls.obj winhelp.obj winmisc.obj 
+winmm.lib winnoise.obj winnojmp.obj winpgen.obj 
+winspool.lib winstore.obj wintime.obj 
+winutils.obj 

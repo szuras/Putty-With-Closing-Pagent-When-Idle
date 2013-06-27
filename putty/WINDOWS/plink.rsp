@@ -1,0 +1,18 @@
+/nologo /subsystem:console 
+advapi32.lib be_all_s.obj cmdline.obj 
+comctl32.lib comdlg32.lib conf.obj cproxy.obj 
+gdi32.lib imm32.lib ldisc.obj logging.obj 
+misc.obj ole32.lib pgssapi.obj pinger.obj 
+plink.res portfwd.obj proxy.obj raw.obj 
+rlogin.obj settings.obj shell32.lib ssh.obj 
+sshaes.obj ssharcf.obj sshblowf.obj sshbn.obj 
+sshcrc.obj sshcrcda.obj sshdes.obj sshdh.obj 
+sshdss.obj sshgssc.obj sshmd5.obj sshpubk.obj 
+sshrand.obj sshrsa.obj sshsh256.obj sshsh512.obj 
+sshsha.obj sshzlib.obj telnet.obj timing.obj 
+tree234.obj user32.lib version.obj wildcard.obj 
+wincons.obj windefs.obj wingss.obj winhandl.obj 
+winmisc.obj winmm.lib winnet.obj winnoise.obj 
+winnojmp.obj winpgntc.obj winplink.obj 
+winproxy.obj winser.obj winspool.lib winstore.obj 
+wintime.obj winx11.obj x11fwd.obj 

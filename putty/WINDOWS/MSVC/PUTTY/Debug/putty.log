@@ -1,0 +1,14 @@
+﻿Build started 6/25/2013 4:04:32 PM.
+     1>Project "C:\temp\putty\WINDOWS\MSVC\PUTTY\putty.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\wingss.c ..\..\winmisc.c
+         winmisc.c
+     1>c:\program files (x86)\windows kits\8.0\include\shared\sspi.h(64): fatal error C1189: #error :   You must define one of SECURITY_WIN32, SECURITY_KERNEL, or
+         wingss.c
+     1>c:\program files (x86)\windows kits\8.0\include\shared\sspi.h(64): fatal error C1189: #error :   You must define one of SECURITY_WIN32, SECURITY_KERNEL, or
+         Generating Code...
+     1>Done Building Project "C:\temp\putty\WINDOWS\MSVC\PUTTY\putty.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85

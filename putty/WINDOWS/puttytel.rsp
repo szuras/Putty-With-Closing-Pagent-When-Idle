@@ -1,0 +1,15 @@
+/nologo /subsystem:windows 
+advapi32.lib be_nos_s.obj cmdline.obj 
+comctl32.lib comdlg32.lib conf.obj config.obj 
+dialog.obj gdi32.lib imm32.lib ldisc.obj 
+ldiscucs.obj logging.obj minibidi.obj misc.obj 
+nocproxy.obj nogss.obj ole32.lib pinger.obj 
+proxy.obj puttytel.res raw.obj rlogin.obj 
+sercfg.obj settings.obj shell32.lib sizetip.obj 
+telnet.obj terminal.obj timing.obj tree234.obj 
+user32.lib version.obj wcwidth.obj wincfg.obj 
+winctrls.obj windefs.obj windlg.obj window.obj 
+winhandl.obj winhelp.obj winjump.obj winmisc.obj 
+winmm.lib winnet.obj winprint.obj winproxy.obj 
+winser.obj winspool.lib winstore.obj wintime.obj 
+winucs.obj winutils.obj 
