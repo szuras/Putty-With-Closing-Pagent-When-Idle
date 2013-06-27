@@ -2040,9 +2040,6 @@ DWORD WINAPI threadProc()
 
 	info.cbSize = sizeof(info);
 
-	sprintf(str, "current value %d", max_idle_value);
-	MessageBox(NULL,str,"info",MB_OK);
-	
 	for (i = 0; ; i++)
     {
 		getLastInputInfo(&info);
