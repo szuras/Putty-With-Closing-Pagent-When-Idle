@@ -540,7 +540,7 @@ timing.o: ../timing.c ../putty.h ../tree234.h ../puttyps.h ../network.h \
 	$(CC) $(COMPAT) $(FWHACK) $(CFLAGS) $(XFLAGS) -c $<
 toucs.o: ../charset/toucs.c ../charset/charset.h ../charset/internal.h
 	$(CC) $(COMPAT) $(FWHACK) $(CFLAGS) $(XFLAGS) -c $<
-tree234.o: ../tree234.c ../puttymem.h ../tree234.h
+tree234.o: ../tree234.c ../tree234.h ../puttymem.h
 	$(CC) $(COMPAT) $(FWHACK) $(CFLAGS) $(XFLAGS) -c $<
 utf8.o: ../charset/utf8.c ../charset/charset.h ../charset/internal.h
 	$(CC) $(COMPAT) $(FWHACK) $(CFLAGS) $(XFLAGS) -c $<

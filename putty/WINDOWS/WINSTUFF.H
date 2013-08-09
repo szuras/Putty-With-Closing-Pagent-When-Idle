@@ -5,9 +5,6 @@
 #ifndef PUTTY_WINSTUFF_H
 #define PUTTY_WINSTUFF_H
 
-
-
-
 #ifndef AUTO_WINSOCK
 #include <winsock2.h>
 #endif
@@ -464,6 +461,7 @@ void show_help(HWND hwnd);
 extern OSVERSIONINFO osVersion;
 BOOL init_winver(void);
 HMODULE load_system32_dll(const char *libname);
+const char *win_strerror(int error);
 
 /*
  * Exports from sizetip.c.
@@ -554,6 +552,5 @@ int remove_from_jumplist_registry(const char *item);
  * sequence of NUL-terminated strings in memory, terminated with an
  * empty one. */
 char *get_jumplist_registry_entries(void);
-
 
 #endif

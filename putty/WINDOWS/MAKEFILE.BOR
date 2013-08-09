@@ -588,7 +588,7 @@ timing.obj: ..\timing.c ..\putty.h ..\tree234.h ..\puttyps.h ..\network.h \
 		..\unix\unix.h ..\puttymem.h ..\windows\winhelp.h \
 		..\charset\charset.h
 toucs.obj: ..\charset\toucs.c ..\charset\charset.h ..\charset\internal.h
-tree234.obj: ..\tree234.c ..\puttymem.h ..\tree234.h
+tree234.obj: ..\tree234.c ..\tree234.h ..\puttymem.h
 utf8.obj: ..\charset\utf8.c ..\charset\charset.h ..\charset\internal.h
 ux_x11.obj: ..\unix\ux_x11.c ..\putty.h ..\ssh.h ..\network.h ..\puttyps.h \
 		..\misc.h ..\puttymem.h ..\tree234.h ..\int64.h \

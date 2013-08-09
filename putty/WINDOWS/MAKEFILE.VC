@@ -759,7 +759,7 @@ timing.obj: ..\timing.c ..\putty.h ..\tree234.h ..\puttyps.h ..\network.h \
 toucs.obj: ..\charset\toucs.c ..\charset\charset.h ..\charset\internal.h
 	cl $(COMPAT) $(CFLAGS) $(XFLAGS) /c ..\charset\toucs.c
 
-tree234.obj: ..\tree234.c ..\puttymem.h ..\tree234.h
+tree234.obj: ..\tree234.c ..\tree234.h ..\puttymem.h
 	cl $(COMPAT) $(CFLAGS) $(XFLAGS) /c ..\tree234.c
 
 utf8.obj: ..\charset\utf8.c ..\charset\charset.h ..\charset\internal.h
